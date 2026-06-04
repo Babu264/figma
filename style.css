@@ -1,0 +1,328 @@
+body{
+    margin: 0;
+    padding: 0;
+   background-color: gainsboro;
+
+}
+
+
+/* navbar */
+nav{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+
+}
+nav>img{
+    margin-top: 10px;
+    margin-left: 80px;
+    width: 180px;
+    height: 52px;
+}.nav-class{
+    gap: 46px;
+    display: flex;
+    align-items: baseline;
+
+
+}.nav-class>a{
+    text-decoration: none;
+}
+.nav-class>button{
+    margin-right: 30px;
+    margin-top: 10px;
+    width: 180px;
+    height: 50px;
+    background-color: #75BF7A;
+    border-radius: 5px;
+    border: none;
+
+}
+/*images*/
+.contant{
+    display: flex;
+    justify-content: space-between;
+
+}
+.contant>.text{
+    display: flex;
+    flex-direction: column;
+}
+.contant>.text>h2{
+    width: 500px;
+    margin-top: 150px;
+    margin-left: 80px;
+
+}
+.contant>.text>p{
+    width: 500px;
+    margin-top: 27px;
+    margin-left: 80px;
+}
+.contant>img{
+    width: 530px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+    
+    
+
+.contant>.text>.btn>.download-btn{ 
+    
+     
+     margin-left: 80px;
+    margin-top: 20px;
+     width: 180px;
+    height: 50px;
+   background-color:black;
+   
+    color: white;
+    border-radius: 5px;
+    border: none;
+   
+}
+/* green-box */
+.green-section{
+    width: 90%;
+    height: 160px;
+    background-color: #75BF7A;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.hero-section{
+    gap: 11px;
+}
+.hero-section>input{
+height: 35px;
+padding: 8px 16px;
+width: 400px;
+border-radius: 5px;
+
+}
+.apply-btn{
+     width: 180px;
+    height: 50px;
+   background-color:black;
+   margin-right: 70px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+/* text-section */
+.text-section{
+    text-align: center;
+    /* width: 400px; */
+    
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+}
+
+.left, .right{
+    width:250px;
+}
+
+.box{
+    margin:40px 0;
+}
+.left{
+    text-align: right;
+}
+
+.container-image{
+    width: 60px;
+    height: 60px;
+
+}
+
+.circle{
+    width:400px;
+    height:400px;
+    background:#6ddc8b;
+    border-radius:50%;
+}
+.mobile{
+    margin-left: 80px;
+}
+
+  .card{
+    width: 900px;
+    height: 200px;
+    margin-left: 80px;
+
+      background:white;
+      padding:30px;
+      margin-bottom:20px;
+      border-radius:10px;
+      display:flex;
+      justify-content:space-between;
+      flex-wrap:wrap;
+    }.card-x{
+            width: 900px;
+        height: 200px;
+        margin-left: 170px;
+
+      background:white;
+      padding:30px;
+      margin-bottom:20px;
+      border-radius:10px;
+      display:flex;
+      justify-content:space-between;
+      flex-wrap:wrap;
+    }
+
+    .card h3{
+      font-size:35px;
+      color:#4CAF50;
+      margin-bottom:10px;
+    }
+
+    .card p{
+      color:gray;
+      line-height:24px;
+    }
+
+    .card img{
+      width:180px;
+      height: 160px;}
+span{
+    color: black;
+}
+.card>img{
+    width: 180px;
+    height: 180px;
+    
+}.time>p{
+    width: 200px;
+}
+/* footer */
+footer{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn>.download-btn{
+       
+    margin-top: 20px;
+     width: 180px;
+    height: 50px;
+   background-color:black;
+   
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.same{
+    width: 100px;
+}
+@media screen and (max-width: 768px){
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .nav-class{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .contant{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contant>.text>h2,
+    .contant>.text>p{
+        width: 90%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contant>.img img{
+        width: 100%;
+        height: auto;
+    }
+
+    .green-section{
+        width: 95%;
+        margin: 20px auto;
+        flex-direction: column;
+        padding: 20px 0;
+        height: auto;
+        text-align: center;
+    }
+
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero-section input{
+        width: 90%;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .left,
+    .right{
+        width: 90%;
+        text-align: center;
+    }
+
+    .circle{
+        width: 280px;
+        height: 280px;
+    }
+
+    .mobile{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .card,
+    .card-x{
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card img,
+    .card-x img{
+        width: 150px;
+        height: auto;
+    }
+
+    footer{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+        text-align: center;
+    }
+}
