@@ -224,13 +224,20 @@ footer{
 .same{
     width: 100px;
 }
-@media screen and (max-width: 768px){
+@media screen and (min-width: 300px) and (max-width: 768px)
+{
 
     nav{
         flex-direction: column;
         align-items: center;
         height: auto;
+        
+        
     }
+    /* nav>i{
+        display: none;
+        
+    } */
 
     .nav-class{
         flex-direction: column;
@@ -297,8 +304,9 @@ footer{
     }
 
     .mobile{
-        width: 100%;
+        width: 60%;
         margin-left: 0;
+        height: auto;
     }
 
     .card,
